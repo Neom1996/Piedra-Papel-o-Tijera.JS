@@ -1,0 +1,39 @@
+var tijera = "tijera"
+
+var piedra = "piedra"
+
+var papel = "papel"
+
+var resultado = function(jugador1,cpu)  {
+
+if (jugador1===cpu){
+
+    console.log ("Es un empate");
+
+} else if (jugador1=== tijera && cpu=== papel ) {
+
+    console.log ("¡Felicidades, Ganaste!");
+
+} else if (jugador1=== tijera && cpu=== piedra) {
+
+    console.log ("¡Gana la cpu!");
+
+} else if (jugador1=== piedra && cpu=== tijera ) {
+
+    console.log ("¡Felicidades, Ganaste!");
+
+} else if (jugador1=== piedra && cpu=== papel) {
+
+    console.log ("¡Gana la cpu!");
+
+} else if (jugador1=== papel && cpu=== piedra ) {
+
+    console.log ("¡Felicidades, Ganaste!");
+
+} else if (jugador1=== papel && cpu=== tijera) {
+
+    console.log ("¡Gana la cpu!");
+
+}
+
+}
